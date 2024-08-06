@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Sistema de finanças</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Sistema de finanças</h1>
+        <div class="content-inputs">
+            <h3 class="title-data">Insira os dados</h3>
+            <input type="text" id="nameEvent" placeholder="Nome da atividade">
+            <input type="date" id="dateEvent">
+            <input type="number" id="valueEvent" placeholder="Valor">
+            <input type="text" id="description" placeholder="Descrição">
+            <button id="saveData" class="btn-form">Salvar dados</button>
+        </div>
+        <div class="content-table">
+            <h2>Tabela de Dados</h2>
+            <table id="dataTable" >
+                <thead >
+                    <tr>
+                        <th>Nome da Atividade</th>
+                        <th>Data</th>
+                        <th>Valor</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody id="tableReturn">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
